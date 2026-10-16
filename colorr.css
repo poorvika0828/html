@@ -1,0 +1,44 @@
+h1,p{
+    color:blueviolet;
+    font:size 32px;
+}
+important{
+    color:blue;
+    font-weight:bold;
+}
+input[type="text"]{
+    border:2px solid green;
+}
+.profile{
+    color:red;
+}
+#main-heading{
+    color:chocolate;
+    text-align:center;
+}
+
+*{
+    box-sizing:border-box;
+}
+.container >p{
+    color:brown;
+}
+.submit{
+    background-color:pink;
+    color:beige;
+    padding:10px,20px;
+    cursor:pointer;
+}
+.submit:hover{
+    background-color:green;
+
+}
+.intro::first-letter{
+    color:green;
+    font-size:30px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+.intro::before{
+    content:""
+}
